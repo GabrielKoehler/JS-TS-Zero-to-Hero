@@ -1,0 +1,66 @@
+.main{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+form.person-section div{
+  display: flex;
+  flex-direction: row;
+  width: 20em;
+  justify-content: space-between;
+  line-height: 2em;
+  margin-top: 0.2em;
+}
+
+form.person-section .create-section{
+  align-items: center;
+  line-height: 1.5em;
+  margin-top: 1em;
+  justify-content: center;
+}
+
+#create-person{
+  width: 4em;
+  height: 2em;
+  background-color: #0a5eb8;
+  border-radius: 0.4em;
+  border-color: #0a5eb8;
+  border-style: none;
+  font-weight: 600;
+  color: #eee
+}
+
+#create-person:hover{
+  background-color: #63a2e6;
+  border-color: #63a2e6;
+}
+
+.person-section {
+  padding: 1em;
+  border-radius: 1em;
+  width: 20em;
+  border-radius: 1em;
+}
+
+.person-section .person-section:last-child {
+  overflow-y: scroll;
+  height: 10em;
+  line-height: 1.6em;
+  margin-top: 0;
+}
+
+.person-section input{
+  border-style: solid;
+  border-radius: 0.1em;
+  border-width: 0.09em;
+  border-color: #eee;
+}
+
+.main center {
+  padding-bottom: 0.4em;
+  margin-bottom: 1em;
+  border-style: solid;
+  border-width: 0 0 0.1em 0;
+  border-color: #ccc;
+}
